@@ -66,5 +66,3 @@ To fine-tune seizure type classification models from self-supervised pre-trainin
 ```
 ---
 
-## Statement
-The code repository will be made publicly available upon formal acceptance of the manuscript through a trusted archival platform.
