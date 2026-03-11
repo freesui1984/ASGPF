@@ -65,6 +65,12 @@ The recommended requirements are specified as follows:
     - dotted-dict
     - networkx
 
+On terminal, run the following:
+```
+conda env create -f eeg_asgpf.yml
+conda activate eeg_asgpf
+```
+
 ---
 
 ## Preprocessing
