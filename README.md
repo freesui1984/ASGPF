@@ -39,13 +39,31 @@ The data splits for both experiments are summarized in Table I.
 
 ---
 
-## Conda Environment Setup
+## Requirements
 
-On terminal, run the following:
-```
-conda env create -f eeg_asgpf.yml
-conda activate eeg_asgpf
-```
+The recommended requirements are specified as follows:
+
+*channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+*dependencies:
+  - pytorch=1.5.0
+  - python=3.7.3
+  - scipy=1.2.1
+  - numpy=1.17.3
+  - matplotlib=3.1.2
+  - h5py=2.10.0
+  - pandas=1.2.1
+  - scikit-learn=0.23.2
+  - pyedflib=0.1.15
+  - pip:
+    - tqdm
+    - tensorboardX
+    - graphviz
+    - dotted-dict
+    - networkx
 
 ---
 
